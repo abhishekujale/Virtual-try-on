@@ -59,8 +59,8 @@ while True:
         except :
             pass
 
-        img = cvzone.overlayPNG(img,imageButtonRight,(1074,293))
-        img = cvzone.overlayPNG(img, imageButtonLeft, (72, 293))
+        # img = cvzone.overlayPNG(img,imageButtonRight,(1074,293))
+        # img = cvzone.overlayPNG(img, imageButtonLeft, (72, 293))
 
         if lmList[16][0] < 300:
             counterRight += 1
